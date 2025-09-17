@@ -1,0 +1,114 @@
+/* بکگراند کلی */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at top left, #000000, #1a0000, #330000, #660000);
+  color: white;
+  text-align: center;
+}
+
+/* صفحه ورود */
+#intro {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #ff1a1a;
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.8);
+  margin-bottom: 20px;
+}
+
+#intro h2 {
+  color: #ff3333;
+  text-shadow: 0 0 15px red;
+}
+
+#intro button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  background: #ff1a1a;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.8);
+  transition: 0.3s;
+}
+
+#intro button:hover {
+  transform: scale(1.1);
+  background: #ff3333;
+}
+
+/* پلی‌لیست */
+#main {
+  padding: 30px;
+}
+
+/* کارت موزیک */
+.music-card {
+  background: #111;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.6);
+  transition: 0.3s;
+}
+
+.music-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px rgba(255, 0, 0, 0.9);
+}
+
+.music-card img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
+}
+
+.music-card h2 {
+  color: #ff3333;
+  margin: 15px 0 10px;
+}
+
+.music-card audio {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+
+.social-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px; /* گوشه‌های گرد ولی نه دایره کامل */
+  object-fit: cover;
+  display: inline-block;
+  transition: transform 0.3s ease;
+  margin: 10px;
+}
+
+/* افکت هاور برای حس تعاملی */
+.social-icon:hover {
+  transform: scale(1.05);
+}
+
+/* سایه قرمز */
+.red-shadow {
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+}
+
+/* سایه مشکی */
+.black-shadow {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
